@@ -1,0 +1,11 @@
+{"namespace": "org.djames.kafka.streams.example.model",
+ "type": "record",
+ "name": "PageviewEnriched",
+ "fields": [
+     {"name": "userID", "type": "int"},
+     {"name": "pageID", "type": "int"},
+     {"name": "timestamp", "type": "long"},
+     {"name": "duration", "type": ["null","long"],  "default": null },
+     {"name": "category", "type": ["null","string"],  "default": null}
+    ]
+}

@@ -1,0 +1,10 @@
+{"namespace": "org.djames.kafka.streams.example.model",
+ "type": "record",
+ "name": "User",
+ "fields": [
+     {"name": "userID", "type": "int"},
+     {"name": "userName", "type": "string"},
+     {"name": "state", "type": "string"},
+     {"name": "zipcode", "type": "string"}
+ ]
+}

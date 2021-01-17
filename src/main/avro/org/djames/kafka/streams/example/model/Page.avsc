@@ -1,0 +1,8 @@
+{"namespace": "org.djames.kafka.streams.example.model",
+ "type": "record",
+ "name": "Page",
+ "fields": [
+     {"name": "pageID", "type": "int"},
+     {"name": "category", "type": ["null","string"],  "default": null}
+ ]
+}

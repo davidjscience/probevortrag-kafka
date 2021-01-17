@@ -1,0 +1,5 @@
+.idea/
+target/
+targez/
+*.iml
+*.jar

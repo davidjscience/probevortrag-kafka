@@ -1,0 +1,10 @@
+{"namespace": "org.djames.kafka.streams.example.model",
+ "type": "record",
+ "name": "WindowedCategoryDuration",
+ "fields": [
+     {"name": "category", "type": ["null", "string"],  "default": null},
+     {"name": "startTime", "type": ["null", "long"],  "default": null},
+     {"name": "endTime", "type": ["null", "long"],  "default": null},
+      {"name": "duration", "type": ["null", "long"],  "default": null}
+      ]
+}
